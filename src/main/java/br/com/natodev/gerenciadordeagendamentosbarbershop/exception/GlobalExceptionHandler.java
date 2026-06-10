@@ -12,7 +12,7 @@ import java.util.Map;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(IllegalArgumentException.class)
-    public ResponseEntity<Map<String, String>> handleRegrasDeNegocio(IllegalArgumentException exception) {
+    public ResponseEntity<Map<String, String>> handRegrasDeNegocio(IllegalArgumentException exception) {
         Map<String, String> resposta = new HashMap<>();
         resposta.put("erro", exception.getMessage());
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(resposta);
