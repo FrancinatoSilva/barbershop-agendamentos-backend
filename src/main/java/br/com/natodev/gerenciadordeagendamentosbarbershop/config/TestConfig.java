@@ -1,12 +1,10 @@
 package br.com.natodev.gerenciadordeagendamentosbarbershop.config;
 
 import br.com.natodev.gerenciadordeagendamentosbarbershop.domain.Servico;
-import br.com.natodev.gerenciadordeagendamentosbarbershop.repository.AgendamentoRepository;
 import br.com.natodev.gerenciadordeagendamentosbarbershop.repository.ServicoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
